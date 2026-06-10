@@ -1,24 +1,39 @@
-# استفاده از شرط‌ها (if, elif, else)
+# Conditional Statements | دستورات شرطی
 
-# مثال 1: تشخیص نمره
-score = float(input("نمره خود را وارد کنید (0-20): "))
+print("=== Grade System | سیستم نمره‌دهی ===")
+score = float(input("Enter score (0-20) | نمره (0-20): "))
 
 if score >= 18:
-    print("وضعیت: عالی ✨")
+    result = "Excellent | عالی"
 elif score >= 15:
-    print("وضعیت: خیلی خوب 👍")
+    result = "Very Good | خیلی خوب"
 elif score >= 12:
-    print("وضعیت: خوب ✅")
+    result = "Good | خوب"
 elif score >= 10:
-    print("وضعیت: قبول ⚠️")
+    result = "Pass | قبول"
 else:
-    print("وضعیت: مردود ❌")
+    result = "Fail | مردود"
 
-# مثال 2: تشخیص زوج یا فرد
-print("\n--- تشخیص زوج یا فرد ---")
-number = int(input("یک عدد وارد کنید: "))
+print(f"Result | نتیجه: {result}")
+
+print("\n=== Even or Odd | زوج یا فرد ===")
+number = int(input("Enter a number | عدد: "))
 
 if number % 2 == 0:
-    print(f"عدد {number} زوج است")
+    print(f"{number} is even | زوج است")
 else:
-    print(f"عدد {number} فرد است")
+    print(f"{number} is odd | فرد است")
+
+print("\n=== Age Group | گروه سنی ===")
+age = int(input("Enter age | سن: "))
+
+if age < 13:
+    group = "Child | کودک"
+elif age < 20:
+    group = "Teenager | نوجوان"
+elif age < 60:
+    group = "Adult | بزرگسال"
+else:
+    group = "Senior | سالمند"
+
+print(f"Age group | گروه سنی: {group}")
