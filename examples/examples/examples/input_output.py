@@ -1,12 +1,20 @@
-# دریافت ورودی از کاربر و نمایش خروجی
+# Input & Output | ورودی و خروجی
 
-name = input("نام خود را وارد کنید: ")
-age = input("سن خود را وارد کنید: ")
+# Simple input | ورودی ساده
+name = input("Enter your name | نام خود را وارد کنید: ")
 
-print("\n--- اطلاعات شما ---")
-print("سلام", name)
-print("سن شما", age, "سال است")
+# Input with type conversion | ورودی با تبدیل نوع
+age = int(input("Enter your age | سن خود را وارد کنید: "))
 
-# تبدیل ورودی به عدد
-number = int(input("\nیک عدد وارد کنید: "))
-print("دو برابر عدد شما:", number * 2)
+# Output | خروجی
+print("\n--- Information | اطلاعات ---")
+print(f"Hello {name}")
+print(f"سلام {name}")
+
+print(f"You are {age} years old")
+print(f"شما {age} سال دارید")
+
+# Calculate with input | محاسبه با ورودی
+number = float(input("\nEnter a number | یک عدد وارد کنید: "))
+print(f"Double | دو برابر: {number * 2}")
+print(f"Square | مجذور: {number ** 2}")
