@@ -1,18 +1,22 @@
-# متغیرها و انواع داده در پایتون
+# Variables & Data Types | متغیرها و انواع داده
 
-name = "علی"        # str (رشته متنی)
-age = 25            # int (عدد صحیح)
-height = 1.78       # float (عدد اعشاری)
-is_student = True   # bool (منطقی)
+# String | رشته
+name = "Ali"
+print(f"Name | نام: {name}")
 
-print("نام:", name)
-print("سن:", age)
-print("قد:", height)
-print("دانشجو است؟:", is_student)
+# Integer | عدد صحیح
+age = 25
+print(f"Age | سن: {age}")
 
-# نمایش نوع هر متغیر
-print("\nنوع داده‌ها:")
-print(type(name))
-print(type(age))
-print(type(height))
-print(type(is_student))
+# Float | عدد اعشاری
+height = 1.78
+print(f"Height | قد: {height}")
+
+# Boolean | منطقی
+is_student = True
+print(f"Is Student | دانشجو است؟: {is_student}")
+
+# Type checking | بررسی نوع داده
+print(f"Type of age | نوع سن: {type(age)}")
+print(f"Type of height | نوع قد: {type(height)}")
+print(f"Type of name | نوع نام: {type(name)}")
