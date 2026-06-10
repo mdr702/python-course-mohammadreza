@@ -1,33 +1,34 @@
-# Python Basics – Part 1 | مبانی پایتون – بخش اول
+# 🐍 آموزش پایتون | Python Tutorial for Beginners
 
+**دوره کامل آموزش پایتون از مقدماتی تا پیشرفته** | **Complete Python Course**
+
+آموزش پایتون مقدماتی، متغیرها، شرط‌ها، حلقه‌ها، توابع و پروژه‌های عملی.
+
+---
 **Author | نویسنده:** Mohammadreza | محمدرضا
-
----
-
-## Introduction | مقدمه
-
-**English:**  
 Python is a high-level, simple, and powerful programming language. In this first part, we will learn the basics.
+## چرا این دوره؟
 
-**فارسی:**  
-پایتون یک زبان برنامه‌نویسی سطح‌بالا، ساده و قدرتمند است. در این بخش اول، با مفاهیم پایه‌ای آشنا می‌شیم.
-
-**Topics | سرفصل‌ها:**
-- Installation | نصب و راه‌اندازی
-- Variables & Data Types | متغیرها و انواع داده
-- Input & Output | ورودی و خروجی
-- Operators | عملگرها
-- Conditional Statements (if, elif, else) | شرط‌ها
+✅ **آموزش پایتون از صفر** - نیاز به دانش قبلی ندارد
+✅ **تمرین پایتون با جواب** - ۱۰+ تمرین با راه حل
+✅ **پروژه پایتون** - ۴ پروژه عملی
+✅ **دو زبانه (فارسی + انگلیسی)**
 
 ---
 
-## 1. Installation | نصب
+## سرفصل‌های دوره پایتون
 
-**English:**  
-Download the latest version from [python.org](https://python.org). After installation, open terminal (or command prompt) and type:
+1. **پایتون مقدماتی** - نصب، متغیرها، ورودی/خروجی
+2. **شرط‌ها در پایتون** - if, elif, else
+3. **حلقه‌های پایتون** - for, while (به زودی)
+4. **توابع در پایتون** - def, return (به زودی)
 
-**فارسی:**  
-از سایت رسمی [python.org](https://python.org) آخرین نسخه را دانلود و نصب کنید. بعد از نصب، در ترمینال یا Command Prompt تایپ کنید:
+---
 
-```bash
-python --version
+## لینک‌های مفید
+
+🔗 **مشاهده دوره:** [python-course-mohammadreza](https://github.com/mdr702/python-course-mohammadreza)
+
+📚 **منابع یادگیری پایتون:** [Wiki](https://github.com/mdr702/python-course-mohammadreza/wiki)
+
+💬 **پرسش و پاسخ:** [Discussions](https://github.com/mdr702/python-course-mohammadreza/discussions)
