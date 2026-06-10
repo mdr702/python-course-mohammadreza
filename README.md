@@ -24,6 +24,16 @@ Python is a high-level, simple, and powerful programming language. In this first
 4. **توابع در پایتون** - def, return (به زودی)
 
 ---
+## 1. Installation | نصب
+
+**English:**  
+Download the latest version from [python.org](https://python.org). After installation, open terminal (or command prompt) and type:
+
+**فارسی:**  
+از سایت رسمی [python.org](https://python.org) آخرین نسخه را دانلود و نصب کنید. بعد از نصب، در ترمینال یا Command Prompt تایپ کنید:
+
+```bash
+python --version
 
 ## لینک‌های مفید
 
