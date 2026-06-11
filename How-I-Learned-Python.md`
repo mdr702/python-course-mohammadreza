@@ -1,0 +1,426 @@
+# How I Learned Python (And How You Can Too)
+
+**Author:** Mohammadreza Mohammadi (mdr702)
+
+**Published:** June 11, 2026
+
+**Reading Time:** 8 minutes
+
+---
+
+## 🎯 Abstract | چکیده
+
+**English:** In this article, I share my personal journey learning Python — from absolute beginner to creating my own courses and projects. I'll tell you what worked, what didn't, and give you a practical roadmap to follow.
+
+**فارسی:** در این مقاله، تجربه شخصی خودم از یادگیری پایتون رو به اشتراک می‌ذارم — از یک مبتدی کامل تا ساخت دوره‌ها و پروژه‌های خودم. بهت میگم چه چیزهایی جواب داد، چه چیزهایی جواب نداد، و یه نقشه راه عملی بهت میدم.
+
+---
+
+## 📖 Table of Contents
+
+1. [Why I Started Learning Python](#1-why-i-started-learning-python)
+2. [My First Month: The Struggle Was Real](#2-my-first-month-the-struggle-was-real)
+3. [The Breakthrough Moment](#3-the-breakthrough-moment)
+4. [My 6-Month Learning Roadmap](#4-my-6-month-learning-roadmap)
+5. [Resources That Actually Helped Me](#5-resources-that-actually-helped-me)
+6. [Mistakes I Made (So You Don't Have To)](#6-mistakes-i-made-so-you-dont-have-to)
+7. [The Projects That Changed Everything](#7-the-projects-that-changed-everything)
+8. [How I Started Teaching Python](#8-how-i-started-teaching-python)
+9. [My Daily Learning Routine](#9-my-daily-learning-routine)
+10. [My Advice for Beginners in 2026](#10-my-advice-for-beginners-in-2026)
+
+---
+
+## 1. Why I Started Learning Python
+
+**The honest truth:** I didn't start because I loved coding. I started because I saw an opportunity.
+
+Back in 2023, I noticed something interesting:
+
+- Every job posting wanted Python
+- My friends who knew Python got paid 3x more
+- AI was exploding, and Python was the key
+
+So I thought: **"If they can do it, why can't I?"**
+
+```python
+# My mindset at the beginning
+my_skills = ["basic computer knowledge", "determination", "curiosity"]
+my_goal = "become a Python developer"
+my_doubt = "is this really possible?"
+
+# Spoiler: It was possible
+print(f"From {my_skills} to {my_goal} in 6 months")
+# Output: From ['basic computer knowledge', 'determination', 'curiosity'] to become a Python developer in 6 months
+2. My First Month: The Struggle Was Real
+Let me be completely honest: The first month was HARD.
+
+Week 1-2: Confusion
+python
+# This took me 2 days to understand
+name = "Mohammadreza"
+age = 25
+print(f"Hi, I'm {name} and I'm {age} years old")
+I didn't understand:
+
+Why print() needs parentheses
+
+What f"..." means
+
+The difference between = and ==
+
+Week 3-4: Small Wins
+The first time I wrote a program that actually worked:
+
+python
+# My first working program
+user_name = input("What's your name? ")
+print(f"Hello {user_name}! Welcome to Python.")
+
+# When this ran without errors, I felt like a hacker
+Lesson learned: Small wins matter. Don't skip them.
+
+3. The Breakthrough Moment
+Everything changed when I stopped watching tutorials and started building.
+
+Before the breakthrough:
+Watched 50+ hours of YouTube tutorials
+
+Could understand code but couldn't write it
+
+Felt like I was learning but not progressing
+
+After the breakthrough:
+Started building a simple calculator
+
+Got stuck every 5 minutes
+
+Googled errors constantly
+
+But after 3 days, I had a working program
+
+python
+# My first real project (simple calculator)
+def calculator():
+    num1 = float(input("Enter first number: "))
+    op = input("Enter operator (+, -, *, /): ")
+    num2 = float(input("Enter second number: "))
+    
+    if op == '+':
+        print(f"Result: {num1 + num2}")
+    elif op == '-':
+        print(f"Result: {num1 - num2}")
+    elif op == '*':
+        print(f"Result: {num1 * num2}")
+    elif op == '/':
+        print(f"Result: {num1 / num2}")
+    else:
+        print("Invalid operator")
+
+calculator()
+The breakthrough: I realized that struggling = learning. Every error fixed was a lesson learned.
+
+4. My 6-Month Learning Roadmap
+Here's EXACTLY what I did month by month:
+
+Month 1: Foundations
+python
+# What I learned
+- Variables and data types
+- Basic input/output
+- If/elif/else conditions
+- Simple loops (for, while)
+Month 2: Data Structures
+python
+# What I learned
+- Lists and list methods
+- Dictionaries
+- Tuples and sets
+- List comprehensions
+Month 3: Functions and Modules
+python
+# What I learned
+- Creating functions
+- Parameters and return values
+- Importing modules
+- Working with files (read/write)
+Month 4: Libraries
+python
+# What I learned
+- Pandas for data analysis
+- Requests for API calls
+- BeautifulSoup for web scraping
+- Matplotlib for visualization
+Month 5: Projects
+python
+# Projects I built
+1. Web scraper for news articles
+2. Data analysis dashboard
+3. Weather app using API
+4. Personal portfolio website (Flask)
+Month 6: Teaching Others
+python
+# What I did
+- Started writing tutorials
+- Created my GitHub course
+- Helped beginners in forums
+- Built my first open-source project
+5. Resources That Actually Helped Me
+Not all resources are equal. Here's what worked for ME:
+
+Best Free Resources:
+Resource	Why It Helped	Rating
+Python.org official docs	Accurate and complete	⭐⭐⭐⭐⭐
+freeCodeCamp	Hands-on coding challenges	⭐⭐⭐⭐⭐
+Real Python	Practical tutorials	⭐⭐⭐⭐
+GitHub	Real code from real projects	⭐⭐⭐⭐⭐
+YouTube (Corey Schafer)	Clear explanations	⭐⭐⭐⭐
+Best Paid Resources (If You Can):
+Resource	Cost	Worth It?
+100 Days of Code (Udemy)	$15	⭐⭐⭐⭐⭐
+Python Crash Course book	$30	⭐⭐⭐⭐
+Datacamp	$25/month	⭐⭐⭐
+The BEST Resource (FREE):
+Building your own projects. Nothing beats this.
+
+6. Mistakes I Made (So You Don't Have To)
+❌ Mistake #1: Watching too many tutorials
+What I did: Watched 10 different "Python for Beginners" courses
+
+What I should have done: Watched 1 course, then built something
+
+The fix: 20% learning, 80% doing
+
+❌ Mistake #2: Not using Git/GitHub from day 1
+What I did: Kept all my code on my local computer
+
+What I should have done: Put everything on GitHub
+
+The fix: Create a GitHub account and push every single project
+
+❌ Mistake #3: Comparing myself to others
+What I did: Saw experts on Twitter and felt behind
+
+What I should have done: Focus on my own progress
+
+The fix: Delete social media apps during learning time
+
+❌ Mistake #4: Trying to learn everything
+What I did: Jumped between web dev, data science, AI, game dev
+
+What I should have done: Mastered one area first
+
+The fix: Pick ONE path and stick with it for 3 months
+
+❌ Mistake #5: Not building a portfolio
+What I did: Learned for 3 months without showing anyone
+
+What I should have done: Share progress daily/weekly
+
+The fix: Post your code on GitHub, Twitter, LinkedIn
+
+7. The Projects That Changed Everything
+These projects took me from beginner to job-ready:
+
+Project 1: Calculator (Week 1)
+python
+# Simple but taught me: input, conditions, functions
+# First time I felt "I can actually do this"
+Project 2: To-Do List App (Week 3)
+python
+# Taught me: lists, user input, loops, saving data
+# My first "useful" program
+Project 3: Web Scraper (Month 2)
+python
+# Taught me: libraries, APIs, error handling
+# Felt like magic — extracting data from websites
+Project 4: Data Analysis Dashboard (Month 4)
+python
+# Taught me: pandas, matplotlib, data visualization
+# Looked professional enough to show employers
+Project 5: My Own Python Course (Month 6)
+python
+# Taught me: everything I learned + how to explain it
+# Now on GitHub with 50+ stars
+Check it out: python-course-mohammadreza
+
+8. How I Started Teaching Python
+Here's something unexpected: The best way to learn is to teach.
+
+How I started teaching:
+Wrote my first tutorial (on LinkedIn — got 500+ views)
+
+Created my GitHub course (structured lessons + exercises)
+
+Answered questions on forums (helped me identify gaps)
+
+Recorded short videos (forced me to explain clearly)
+
+What teaching gave me:
+Deeper understanding of concepts
+
+Confidence in my skills
+
+A portfolio that stands out
+
+Connections with other developers
+
+Job opportunities (yes, really)
+
+python
+# The teaching mindset
+def learn_by_teaching(topic):
+    understand = learn(topic)
+    explain = teach(topic)
+    
+    if explain:
+        return "You truly understand it"
+    else:
+        return "Time to review"
+9. My Daily Learning Routine
+When I was actively learning, this was my daily schedule:
+
+Morning (2 hours):
+text
+07:00 - 07:30 → Review yesterday's code
+07:30 - 08:30 → Learn new concept (tutorial/docs)
+08:30 - 09:00 → Take notes, save examples
+Afternoon (2-3 hours):
+text
+14:00 - 16:00 → Build something with new concept
+16:00 - 17:00 → Debug, refactor, improve
+Evening (1 hour):
+text
+20:00 - 20:30 → Push code to GitHub
+20:30 - 21:00 → Plan tomorrow's learning
+Total: 5-6 hours per day, 6 days per week
+
+Key secret: Consistency > Intensity. 1 hour every day beats 7 hours on Sunday.
+
+10. My Advice for Beginners in 2026
+The 7 Rules I Wish I Knew:
+1. Start with WHY
+
+python
+# Know your reason for learning
+my_why = "better career opportunities"
+# Write it down. Look at it when you struggle.
+2. Build EVERY day
+
+python
+# Even 30 minutes counts
+today = "wrote 10 lines of code"
+print(f"Progress: {today}")
+# Small steps = big results
+3. Get comfortable with being stuck
+
+python
+# Stuck is not failure
+stuck_status = "learning_in_progress"
+# Every error fixed = skill earned
+4. Share your journey
+
+python
+# Post on social media
+post = "Day 15 of learning Python. Built my first function!"
+# You'll find supporters and accountability
+5. Join a community
+
+python
+# Reddit, Discord, Twitter, GitHub
+community = "people who are also learning"
+# Alone you go fast, together you go far
+6. Build a portfolio, not a resume
+
+python
+portfolio = github_repositories
+resume = words_on_paper
+# employers want to SEE your work
+7. Don't wait to feel ready
+
+python
+# You'll never feel ready
+# Start before you're ready
+just_start = now()
+🎯 Conclusion
+My Journey in Numbers:
+Metric	Number
+Days to first working program	14 days
+Months to first job	8 months
+Lines of code written	50,000+
+Tutorials watched	200+ hours
+Projects built	25+
+Errors fixed	Thousands
+Cups of coffee	Too many ☕
+What I Learned:
+Python is easy to learn but takes practice to master
+
+The struggle is the learning — embrace it
+
+Teaching accelerates learning — start early
+
+Portfolio > Resume — show, don't tell
+
+Consistency beats intensity — 1 hour daily is enough
+
+If You Take One Thing From This Article:
+python
+# The most important lesson
+start = "TODAY"
+ideal_time = "never exists"
+message = f"Stop waiting for {ideal_time}. Start {start}."
+
+print(message)
+# Output: Stop waiting for never exists. Start TODAY.
+🔗 Connect With Me
+Author: Mohammadreza Mohammadi (mdr702)
+
+GitHub: github.com/mdr702
+
+Python Course: github.com/mdr702/python-course-mohammadreza
+
+Email: mdr702@github.com
+
+📚 My Other Articles
+Why Python is the Future of Programming
+
+⭐ Call to Action
+If this article helped you:
+
+Star my GitHub repository
+
+Share this with someone starting their Python journey
+
+Start learning today (seriously, right now)
+
+python
+# A final message for you
+class YourPythonJourney:
+    def __init__(self):
+        self.start_date = "today"
+        self.progress = 0
+        self.potential = "unlimited"
+    
+    def first_step(self):
+        print("You've already taken the first step by reading this")
+        print("Now take the second step — write your first line of code")
+        print("You've got this 💪")
+        
+        return "journey started"
+
+you = YourPythonJourney()
+you.first_step()
+Happy Coding! 🐍✨
+
+Remember: Every expert was once a beginner. Keep going.
+
+"The best time to plant a tree was 20 years ago. The second best time is now."
+— Chinese Proverb
+
+MIT License
+
+Copyright (c) 2026 Mohammadreza Mohammadi
+
+Permission is hereby granted to use, share, and adapt this article with proper attribution to the author.
+
+⭐ If you found this helpful, please star my GitHub repository!
