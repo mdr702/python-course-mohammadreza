@@ -36,6 +36,9 @@ Download the latest version from [python.org](https://python.org). After install
 python --version
 
 ## لینک‌های مفید
+## 📚 مقالات | Articles
+
+- [Why Python is the Future of Programming](Why-Python-Is-Future.md) by Mohammadreza Mohammadi
 
 🔗 **مشاهده دوره:** [python-course-mohammadreza](https://github.com/mdr702/python-course-mohammadreza)
 
