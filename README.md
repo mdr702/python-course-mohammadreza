@@ -7,6 +7,26 @@
 ---
 **Author | نویسنده:** Mohammadreza | محمدرضا
 Python is a high-level, simple, and powerful programming language. In this first part, we will learn the basics.
+
+<!-- Badges | نشان‌های حرفه‌ای -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=mit&logoColor=white" alt="License">
+  <img src="https://img.shields.io/github/stars/mdr702/python-course-mohammadreza?style=for-the-badge&logo=github&color=yellow" alt="Stars">
+  <img src="https://img.shields.io/github/forks/mdr702/python-course-mohammadreza?style=for-the-badge&logo=github&color=blue" alt="Forks">
+  <br>
+  <img src="https://img.shields.io/github/issues/mdr702/python-course-mohammadreza?style=for-the-badge&logo=github&color=red" alt="Issues">
+  <img src="https://img.shields.io/github/last-commit/mdr702/python-course-mohammadreza?style=for-the-badge&logo=github" alt="Last Commit">
+  <img src="https://img.shields.io/badge/Farsi-Persian-blue?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Language Persian">
+  <img src="https://img.shields.io/badge/English-English-blue?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Language English">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Wiki-Active-success?style=for-the-badge&logo=wikipedia&logoColor=white" alt="Wiki">
+  <img src="img.shields.io/badge/Discussions-Active-success?style=for-the-badge&logo=github&logoColor=white" alt="Discussions">
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%20in%20Iran-red?style=for-the-badge" alt="Made with love">
+</p>
 ## چرا این دوره؟
 
 ✅ **آموزش پایتون از صفر** - نیاز به دانش قبلی ندارد
