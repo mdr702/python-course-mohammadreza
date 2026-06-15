@@ -28,6 +28,12 @@ Python is a high-level, simple, and powerful programming language. In this first
   <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%20in%20Iran-red?style=for-the-badge" alt="Made with love">
 </p>
 [![CodeQL](https://github.com/mdr702/python-course-mohammadreza/actions/workflows/codeql.yml/badge.svg)](https://github.com/mdr702/python-course-mohammadreza/actions/workflows/codeql.yml)
+<!-- Security Badges | نشان‌های امنیتی -->
+<p align="center">
+  <img src="https://img.shields.io/badge/security-codeql-brightgreen?style=for-the-badge&logo=github" alt="CodeQL">
+  <img src="https://img.shields.io/badge/secret_scanning-active-brightgreen?style=for-the-badge&logo=github" alt="Secret Scanning">
+  <img src="https://img.shields.io/badge/dependabot-active-brightgreen?style=for-the-badge&logo=dependabot" alt="Dependabot">
+</p>
 
 ## چرا این دوره؟
 
