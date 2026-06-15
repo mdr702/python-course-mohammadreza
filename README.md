@@ -17,12 +17,15 @@ Python is a high-level, simple, and powerful programming language. In this first
 ---
 
 ## سرفصل‌های دوره پایتون
+## 📚 بخش‌های دوره | Course Parts
 
-1. **پایتون مقدماتی** - نصب، متغیرها، ورودی/خروجی
-2. **شرط‌ها در پایتون** - if, elif, else
-3. **حلقه‌های پایتون** - for, while (به زودی)
-4. **توابع در پایتون** - def, return (به زودی)
-
+| بخش | توضیح | لینک |
+|------|-------|------|
+| بخش ۱ | مبانی پایتون | [part1-basics/](part1-basics/README.md) |
+| بخش ۲ | حلقه‌ها و لیست‌ها | [part2-loops-lists/](part2-loops-lists/README.md) |
+| بخش ۳ | توابع و دیکشنری‌ها | [part3-functions-dicts/](part3-functions-dicts/README.md) |
+| بخش ۴ | شی‌گرایی (OOP) | [part4-oop/](part4-oop/README.md) |
+| گیت پیشرفته | آموزش گیت و گیت‌هاب | [git-advanced/](git-advanced/README.md) |
 ---
 ## 1. Installation | نصب
 
