@@ -47,6 +47,58 @@ Python is a high-level, simple, and powerful programming language. In this first
 | بخش ۴ | شی‌گرایی (OOP) | [part4-oop/](part4-oop/README.md) |
 | گیت پیشرفته | آموزش گیت و گیت‌هاب | [git-advanced/](git-advanced/README.md) |
 ---
+
+## 🚀 سرفصل‌های پیشرفته (در برنامه | Upcoming)
+
+| بخش | وضعیت | توضیح |
+|------|--------|-------|
+| **بخش ۵** | 📝 در برنامه | کار با فایل‌ها (File I/O) |
+| **بخش ۶** | 📝 در برنامه | کار با API و درخواست‌های HTTP |
+| **بخش ۷** | 📝 در برنامه | دیتابیس و SQLite |
+| **بخش ۸** | 📝 در برنامه | وب‌اسکرپینگ با BeautifulSoup |
+| **بخش ۹** | 📝 در برنامه | ساخت ربات تلگرام |
+| **بخش ۱۰** | 📝 در برنامه | پروژه نهایی (Final Project) |
+
+---
+
+## 🤝 مشارکت | Contributing
+
+اگر ایده، پیشنهاد یا بهبودی دارید:
+
+1. Issues رو بررسی کنید
+2. یه Issue جدید باز کنید
+3. یا توی Discussions مطرح کنید
+
+---
+
+## ⭐ حمایت | Support
+
+اگر این دوره برات مفید بوده:
+
+- ⭐ به مخزن **Star** بدید
+- 🍴 **Fork** کنید و استفاده کنید
+- 📢 با دوستانتون به اشتراک بذارید
+
+---
+
+## 📞 ارتباط با من | Contact
+
+**Mohammadreza Mohammadi (MDR702)**
+
+- GitHub: [github.com/mdr702](https://github.com/mdr702)
+- Email: mdr702@github.com
+
+---
+
+## 📜 لایسنس | License
+
+این پروژه تحت لایسنس **MIT** منتشر شده است.
+
+---
+
+**با ❤️ در ایران ساخته شده | Made with ❤️ in Iran**
+
+
 ## 1. Installation | نصب
 
 **English:**  
