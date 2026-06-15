@@ -301,3 +301,53 @@ book2 = Book("Django Guide", 250)
 print(str(book1))     # Book: Python 101
 print(len(book1))     # 300
 print(book1 + book2)  # 550
+Exercises | تمرین‌ها
+Exercise 1 – Student Class
+English: Create a Student class with name, age, and grade. Add a method to check if the student passed (grade >= 10).
+
+فارسی: یک کلاس Student با نام، سن و نمره بسازید. متدی اضافه کنید که بررسی کند دانشجو قبول شده است (نمره >= 10).
+
+Exercise 2 – Bank Account
+English: Create a BankAccount class with deposit, withdraw, and show_balance methods.
+
+فارسی: یک کلاس BankAccount با متدهای واریز، برداشت و نمایش موجودی بسازید.
+
+Exercise 3 – Inheritance
+English: Create a Vehicle parent class and Car and Motorcycle child classes with different sound methods.
+
+فارسی: یک کلاس والد Vehicle و کلاس‌های فرزند Car و Motorcycle با متدهای صدای متفاوت بسازید.
+
+Exercise 4 – Library System
+English: Create a simple library system with Book and Member classes. Include borrow and return methods.
+
+فارسی: یک سیستم کتابخانه ساده با کلاس‌های Book و Member بسازید. متدهای امانت گرفتن و برگرداندن را اضافه کنید.
+
+Summary | جمع‌بندی
+English: In this part we learned:
+
+✅ Classes and objects
+✅ The __init__ constructor
+✅ Instance vs class attributes
+✅ Methods (instance, class, static)
+✅ Inheritance and super()
+✅ Encapsulation (public, protected, private)
+✅ Polymorphism
+✅ Magic methods (__str__, __len__, __add__)
+
+فارسی: در این بخش یاد گرفتیم:
+
+✅ کلاس‌ها و اشیاء
+✅ سازنده __init__
+✅ ویژگی‌های نمونه در مقابل کلاس
+✅ متدها (نمونه، کلاس، استاتیک)
+✅ وراثت و super()
+✅ کپسوله‌سازی (public, protected, private)
+✅ چندریختی
+✅ متدهای جادویی
+
+What's Next? | بخش بعدی
+English: Next: Working with Files and APIs
+
+فارسی: بعدی: کار با فایل‌ها و APIها
+
+Author | نویسنده: Mohammadreza | محمدرضا
